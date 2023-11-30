@@ -10,6 +10,7 @@ systemctl status httpd #check the status of a service
 systemctl enable httpd #confiugure httpd to start at startup
 systemctl disable httpd #configure httpd to not start at startup
 #------------------------------------------------------------------------------------------------------------------------------#
+
 #------------------------------------------------------------------------------------------------------------------------------#
 #Run my locally developed app as a service using a unit configuration file
 [Unit]
@@ -29,3 +30,4 @@ systemctl start my_app #starts the app you created as a service
 systemctl status my_app #check the status of the app/service you created
 systemctl stop my_app #stops the app you created to be a service
 systemctl enable myapp #configures my_app service to start on bootup
+#------------------------------------------------------------------------------------------------------------------------------#
