@@ -14,4 +14,5 @@ cp -R <source_location> <destination>
 yum install mlocate
 updatedb
 echo "Hello, $NAME. The current date and time is $(date)"
+
 #------------------------------------------------------------------------------------------------------------------------------#
